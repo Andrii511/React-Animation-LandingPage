@@ -1,0 +1,131 @@
+.comic-list {
+  font-family: "Squada One", sans-serif;
+  margin: 50px 0;
+  padding: 0 32px;
+  @media (max-width: 768px) {
+    margin: 0;
+    padding: 0;
+  }
+
+  &__header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 30px;
+    align-items: center;
+    width: calc(100% - 30px);
+    margin: 0 30px;
+    margin-bottom: 30px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      margin: 0;
+      margin: 20px 0;
+    }
+
+    h2 {
+      font-size: 40px;
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      @media (max-width: 768px) {
+        font-size: 24px;
+      }
+    }
+  }
+
+  &__comic {
+    width: calc(16% - 16.5px);
+    min-width: 195px;
+    @media (max-width: 768px) {
+      min-width: 135px;
+      width: unset;
+    }
+
+    &--cover {
+      width: 100%;
+      height: auto;
+      max-width: 250px;
+      &:hover {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .view-detail {
+          display: block;
+        }
+      }
+      .view-detail {
+        position: absolute;
+        border-color: #df3d43;
+        padding: 10px 30px;
+        box-shadow: 0px 0px 50px 0px #df3d43;
+        width: -moz-fit-content;
+        width: fit-content;
+        border-radius: 36px;
+        border-width: 2px;
+        background-color: black;
+        font-size: 20px;
+        display: none;
+        cursor: pointer;
+      }
+    }
+  }
+
+  &__arrow {
+    height: 20px;
+    margin-right: 40px;
+
+    @media (max-width: 768px) {
+      height: 15px;
+      margin-right: 0;
+    }
+  }
+
+  &__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+
+    h3 {
+      font-size: 18px;
+      color: rgb(255, 255, 255);
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+    }
+
+    &__date {
+      font-size: 13px;
+      font-family: "Squada One", sans-serif;
+      color: rgba(255, 255, 255, 0.6);
+      background-color: rgb(255, 255, 255, 0.102);
+      border-radius: 10px;
+      padding: 3px 10px;
+      min-width: max-content;
+      height: fit-content;
+    }
+  }
+  &__comic--cover {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .chapter-list-wrapper {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    @media (max-width: 768px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 10px;
+    }
+  }
+}

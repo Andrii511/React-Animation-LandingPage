@@ -1,0 +1,117 @@
+export const bodyAccessory = {
+  none: {
+    rarity: 411,
+    label: "None",
+    src: "/assets/builder/traits/body_accessory/none.png",
+    zIndex: 0,
+  },
+  base_form_arm: {
+    rarity: 326,
+    label: `Base Form Arm`,
+    src: "/assets/builder/traits/body_accessory/base_form_arm.png",
+    zIndex: 0,
+  },
+  blue_heros_mark_and_bandage: {
+    rarity: 408,
+    label: `Blue Heros Mark Bandage`,
+    src: "/assets/builder/traits/body_accessory/blue_heros_mark_and_bandage.png",
+    zIndex: 0,
+  },
+  curse_mark: {
+    rarity: 353,
+    label: `Curse Mark`,
+    src: "/assets/builder/traits/body_accessory/curse_mark.png",
+    zIndex: 0,
+  },
+  cursed_assassin_mark: {
+    rarity: 348,
+    label: `Curse Assassin Mark`,
+    src: "/assets/builder/traits/body_accessory/cursed_assassin_mark.png",
+    zIndex: 0,
+  },
+  dark_matter_markings: {
+    rarity: 393,
+    label: `Dark Matter Markings`,
+    src: "/assets/builder/traits/body_accessory/dark_matter_markings.png",
+    zIndex: 0,
+  },
+  dragon_tattoo_and_bracelet: {
+    rarity: 370,
+    label: `Dragon Tatto & Bracelet`,
+    src: "/assets/builder/traits/body_accessory/dragon_tattoo_and_bracelet.png",
+    zIndex: 0,
+  },
+  final_form_arm: {
+    rarity: 248,
+    label: `Final Form Arm`,
+    src: "/assets/builder/traits/body_accessory/final_form_arm.png",
+    zIndex: 0,
+  },
+  flower_arm: {
+    rarity: 45,
+    label: `Flower Arm`,
+    src: "/assets/builder/traits/body_accessory/flower_arm.png",
+    zIndex: 0,
+  },
+  golden_form_arm: {
+    rarity: 184,
+    label: `Golden Form Arm`,
+    src: "/assets/builder/traits/body_accessory/golden_form_arm.png",
+    zIndex: 0,
+  },
+  fiery_arm: {
+    rarity: 18,
+    label: `Fiery Arm`,
+    src: "/assets/builder/traits/body_accessory/fiery_arm.png",
+    zIndex: 2,
+  },
+  metal_arm: {
+    rarity: 72,
+    label: "Metal Arm",
+    src: "/assets/builder/traits/body_accessory/metal_arm.png",
+    zIndex: 0,
+  },
+  parasitic_arm: {
+    rarity: 227,
+    label: "Parasitic Arm",
+    src: "/assets/builder/traits/body_accessory/parasitic_arm.png",
+    zIndex: 0,
+  },
+  rocky_arm: {
+    rarity: 330,
+    label: "Rocky Arm",
+    src: "/assets/builder/traits/body_accessory/rocky_arm.png",
+    zIndex: 0,
+  },
+  sluganoid_arm: {
+    rarity: 165,
+    label: "Sluganoid Arm",
+    src: "/assets/builder/traits/body_accessory/sluganoid_arm.png",
+    zIndex: 0,
+  },
+  bandage: {
+    rarity: 412,
+    label: "Bandage",
+    src: "/assets/builder/traits/body_accessory/bandage.png",
+    zIndex: 0,
+  },
+  injury: {
+    rarity: 47,
+    label: "Injury",
+    src: "/assets/builder/traits/body_accessory/injury.png",
+    zIndex: 0,
+  },
+  karmic_seal: {
+    rarity: 267,
+    label: "Karmic Seal",
+    src: "/assets/builder/traits/body_accessory/karmic_seal.png",
+    zIndex: 0,
+  },
+
+  scarred_tattoos: {
+    rarity: 370,
+    label: "Scarred Tatoos",
+    src: "/assets/builder/traits/body_accessory/scarred_tattoos.png",
+    zIndex: 0,
+  },
+};

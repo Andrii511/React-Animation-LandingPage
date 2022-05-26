@@ -1,0 +1,72 @@
+@import "./variables.scss";
+.Team {
+  padding-bottom: 120px;
+  color: white;
+  .SectionTitle {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  &__subHeading {
+    font-size: 20px;
+    padding: 20px 0;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 735px;
+  }
+  &__team-grid {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  &__member {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+    overflow: hidden;
+    transition: transform 0.3s;
+    .avatar {
+      transition: transform 0.3s;
+      @apply absolute w-full h-full object-cover  top-1/2 left-1/2;
+      z-index: 1;
+      transform: translateY(-50%) translateX(-50%);
+    }
+    .about-block {
+      @apply absolute w-full h-full top-0 left-0 flex flex-col justify-between uppercase;
+      z-index: 2;
+      padding: 20px;
+      text-shadow: 3px 3px 14px rgba(0, 0, 0, 1);
+    }
+    .name {
+      font-family: $squada;
+      font-size: 32px;
+      transition: all 0.4s;
+    }
+    .position {
+      transition: all 0.4s;
+    }
+    .twitter {
+      transition: all 0.3s;
+    }
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  @media (min-width: 768px) {
+    &__team-grid {
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+    }
+  }
+  @media (min-width: 1024px) {
+    &__team-grid {
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 40px;
+    }
+  }
+  @media (min-width: 1280px) {
+  }
+}

@@ -1,0 +1,61 @@
+@import './variables.scss';
+.litepaper {
+  .page-container {
+    height: fit-content;
+  }
+  .page-button {
+    text-transform: uppercase;
+    background: #222;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: max-content;
+    position: absolute;
+    top: 100%;
+    transform: translateY(50%);
+  }
+  .pagination {
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateY(50%) translateX(-50%);
+  }
+  .prev-page {
+    left: 20px;
+  }
+  .next-page {
+    right: 20px;
+  }
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 1024px) {
+    .page-button {
+      top: 50%;
+    }
+    .pagination {
+      position: fixed;
+      height: 44px;
+
+      top: 93vh;
+      left: 50%;
+      transform: translateY(50%) translateX(-50%);
+    }
+    .prev-page {
+      left: 0;
+      transform: translateX(calc(-100% - 10px)) translateY(-50%);
+    }
+    .next-page {
+      right: 0;
+      transform: translateX(calc(100% + 10px)) translateY(-50%);
+    }
+  }
+  @media (min-width: 1280px) {
+  }
+}

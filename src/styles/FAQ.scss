@@ -1,0 +1,70 @@
+@import "./variables.scss";
+.FAQ {
+  padding-bottom: 120px;
+  .SectionTitle {
+    text-align: center;
+  }
+  &__questionWrapper {
+    cursor: pointer;
+    width: 100%;
+    background: #101016;
+    padding: 16px 8px 16px 20px;
+    color: white;
+    border-left: 6px solid #fe0002;
+    transition: all 0.4s;
+    &.enclosed {
+      background: #1a1a24;
+    }
+    .question {
+      font-family: $squada;
+      line-height: 1;
+      font-size: 18px;
+      text-transform: uppercase;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .plus-mark {
+        width: 14px;
+        height: 14px;
+        position: relative;
+        .line {
+          transform: translateX(-50%) translateY(-50%);
+          @apply absolute w-full h-1 top-1/2 left-1/2 bg-white;
+          transition: all 0.3s;
+          &.vert {
+            transform: translateX(-50%) translateY(-50%) rotate(90deg);
+            &.enclosed {
+              transform: translateX(-50%) translateY(-50%) rotate(0deg);
+            }
+          }
+        }
+      }
+    }
+    .answer {
+      overflow: hidden;
+      color: #8fabc2;
+      opacity: 0.6;
+      &.enclosed {
+        padding-top: 16px;
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 1024px) {
+    &__questionWrapper {
+      padding: 32px 16px 32px 40px;
+    }
+    .question {
+      line-height: 1;
+      font-size: 28px;
+      .plus-mark {
+        width: 28px;
+        height: 28px;
+      }
+    }
+  }
+  @media (min-width: 1280px) {
+  }
+}

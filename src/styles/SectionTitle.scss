@@ -1,0 +1,15 @@
+@import "./variables.scss";
+.SectionTitle {
+  text-transform: uppercase;
+  font-family: $squada;
+  line-height: 0.8;
+  color: white;
+  font-size: 60px;
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 1024px) {
+  }
+  @media (min-width: 1280px) {
+    font-size: 120px;
+  }
+}

@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+  font-family: 'Manrope', sans-serif, monospace;
+  scroll-behavior: smooth;
+  background-color: black;
+}
+
+div::-scrollbar-track-piece {
+  background: red !important;
+}
+.menu-bar {
+  background-color: #fe0002;
+}
+.font-manrope {
+  font-family: 'Manrope', sans-serif, monospace;
+}
+.font-squada {
+  font-family: 'Squada One', sans-serif;
+}
+.cont {
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.join .cont {
+  padding: 0;
+}
+.litepaper {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+object {
+  height: 100%;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+  .cont {
+    padding: 0 40px;
+  }
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1440px) {
+  .cont {
+    max-width: 1360px;
+  }
+}
+@media (min-width: 1280px) {
+  /* body::-webkit-scrollbar {
+    width: 4px;
+    background: rgba(0, 0, 0, 0.007) !important;
+  }
+  body::-webkit-scrollbar-track {
+    width: 4px;
+    background: rgba(0, 0, 0, 0.007) !important;
+  }
+  body::-webkit-scrollbar-thumb {
+    width: 3px;
+    border-radius: 6px;
+    background: red !important;
+  } */
+  .PiecePicker::-webkit-scrollbar {
+    width: 4px;
+    background: rgba(0, 0, 0, 0.007) !important;
+  }
+  .PiecePicker::-webkit-scrollbar-thumb {
+    width: 3px;
+    border-radius: 6px;
+    background: red !important;
+  }
+}

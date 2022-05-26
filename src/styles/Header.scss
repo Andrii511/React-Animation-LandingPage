@@ -1,0 +1,18 @@
+#header {
+  font-family: 'Squada One', sans-serif;
+  .header-desktop {
+    transition: all 0.4s;
+    &.scrolled {
+      backdrop-filter: blur(30px);
+      .header-logo {
+        width: 55px;
+        opacity: 1;
+      }
+    }
+  }
+  .header-logo {
+    opacity: 0;
+    width: 0;
+    transition: all 0.4s;
+  }
+}

@@ -1,0 +1,55 @@
+@import "./variables.scss";
+.HeroSection {
+  padding-top: 20px;
+  width: 100%;
+  overflow-x: hidden;
+
+  @apply relative bg-black flex flex-col items-center justify-center;
+  &__title-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 2;
+    color: white;
+  }
+  .SectionTitle {
+    text-align: center;
+  }
+  .logo {
+    height: 50%;
+    max-height: 110px;
+    margin-bottom: 16px;
+  }
+  .Button {
+    width: 220px;
+    height: 80px;
+  }
+
+  @media (min-width: 768px) {
+    .logo {
+      height: auto;
+      max-height: unset;
+    }
+    &__title-section {
+      width: 50%;
+    }
+  }
+  @media (min-width: 1024px) {
+    @apply h-screen items-start;
+  }
+  @media (min-width: 1280px) {
+    padding-top: 0px;
+    &__title-section {
+      //   padding-top: 80px;
+      h1 {
+      }
+      p {
+        max-width: 75%;
+        text-align: center;
+        font-size: 26px;
+        line-height: 35px;
+      }
+    }
+  }
+}

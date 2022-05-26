@@ -1,0 +1,79 @@
+@import "./variables.scss";
+
+.Button {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  min-height: 60px;
+  cursor: pointer;
+  &:hover {
+    .up {
+      transform: translateY(-85%) translateX(-2%);
+    }
+    .down {
+      transform: translateY(85%) translateX(2%);
+    }
+    .join {
+      transform: translateX(-50%) translateY(-50%) scale(1.1);
+      text-shadow: 1px 1px 14px rgba(0, 0, 0, 0.3);
+    }
+  }
+  .up {
+    position: absolute;
+    width: 95%;
+    height: 45%;
+    transform: translateY(-80%);
+    top: 50%;
+    left: 0;
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 0, 0.3) inset;
+    clip-path: polygon(0 0, 100% 0, 100% 51%, 0% 100%);
+    transition: all 0.3s;
+  }
+  .down {
+    transition: all 0.3s;
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(80%);
+    right: 0;
+    width: 95%;
+    height: 45%;
+    box-shadow: 1px 1px 15px 0 rgba(0, 0, 0, 0.3) inset;
+    clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+  }
+  .join {
+    min-width: max-content;
+    z-index: 2;
+    text-transform: uppercase;
+    font-family: $squada;
+    display: inline-block;
+    position: absolute;
+    line-height: 1;
+    font-size: 34px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    transition: all 0.3s;
+  }
+}
+
+
+.button-secondary {
+  color: rgb(255, 255, 255);
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(223, 61, 67);
+  background-color: rgba(223, 61, 67, 0);
+  border-radius: 24px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-family: 'Squada One', sans-serif;
+  padding: 10px 30px;
+  margin: 20px 0;
+  box-shadow: 0px 0px 50px 0px rgb(223, 61, 67);
+  display: block;
+  width: fit-content;
+  border-radius: 36px;
+  border-width: 2px;
+}

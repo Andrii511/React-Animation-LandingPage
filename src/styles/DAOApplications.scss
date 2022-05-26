@@ -1,0 +1,159 @@
+@import './variables.scss';
+.DAOA {
+  padding-top: 48px;
+  color: white;
+  &__form-header {
+    width: 100%;
+    max-width: 540px;
+  }
+  &__main-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 1;
+  }
+  &__subtitle {
+    text-align: center;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    .subheading {
+      display: none;
+    }
+    .isVisible {
+      display: block;
+    }
+  }
+  &__applicants-types {
+    width: 90%;
+    margin: 0 auto;
+    max-width: calc(2 * 260px + 40px);
+    transition: all 0.3s;
+    @apply grid grid-cols-2 pt-10 lg:mt-16 gap-9;
+  }
+  &__applicant-type-box {
+    transition: all 0.3s;
+    width: 100%;
+    @apply flex flex-col items-center gap-5;
+
+    .applicant-type-pic {
+      position: relative;
+      overflow: hidden;
+      background: white;
+      border-radius: 34px;
+      width: 100%;
+      max-width: 260px;
+      padding-bottom: 100%;
+      outline: 0px solid red;
+      transition: all 0.3s;
+    }
+    .applicant-type {
+      font-size: 26px;
+      text-transform: uppercase;
+    }
+    &:hover {
+      .applicant-type-pic {
+        outline: 8px solid red;
+      }
+    }
+  }
+  .role-form {
+    opacity: 100%;
+    transition: all 0.4s 0.5s;
+  }
+  &__input {
+    label {
+      @apply text-white uppercase;
+    }
+
+    .input-wrapper {
+      position: relative;
+
+      input {
+        border-radius: 0px;
+        transition: all 0.3s;
+        background: #1f1f1f;
+        border-bottom: 1px solid transparent;
+        font-family: 'Manrope', sans-serif;
+        padding: 12px 14px;
+        width: 100%;
+        flex-grow: 1;
+        &:focus {
+          background: #313131;
+          outline: none;
+          border-bottom: 1px solid white;
+        }
+        &::placeholder {
+          color: rgba(255, 255, 255, 0.3);
+        }
+      }
+
+      &.with-icon {
+        .icon-wrapper {
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 14px;
+          display: flex;
+          align-items: center;
+          gap: 14px;
+          .devider {
+            @apply h-3/4 w-px bg-white opacity-30 flex-shrink-0;
+          }
+        }
+        input {
+          padding-left: calc(14px + 40px);
+        }
+      }
+    }
+    .multi-input {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+  &__radio {
+    appearance: none;
+
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: black;
+    border: 1px solid white;
+    transition: all 0.3s;
+    &:checked {
+      border: 5px solid white;
+    }
+  }
+  &__text-area {
+    padding: 12px 14px;
+    resize: none;
+    background: #1f1f1f;
+    transition: all 0.3s;
+    border-bottom: 1px solid transparent;
+    &:focus {
+      background: #313131;
+      outline: none;
+      border-bottom: 1px solid white;
+    }
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.3);
+    }
+  }
+  @media (min-width: 768px) {
+  }
+  @media (min-width: 1024px) {
+    padding-top: 110px;
+    &__main-title {
+      font-size: 70px;
+    }
+    &__subtitle {
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 1280px) {
+  }
+}

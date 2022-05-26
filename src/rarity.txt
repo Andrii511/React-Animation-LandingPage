@@ -1,0 +1,277 @@
+_________________________
+coltt 1
+chronos 1
+nomad 1
+tellus 1
+darkweb 1
+chimera 1
+black 1645
+tan 1666
+white 1683
+_________________________
+eternal flame 1
+markings of time 1
+spatial disconnect 1
+uncontrolled elements 1
+tyrants cannon 1
+leopards skin 1
+fiery arm 18
+flower arm 45
+injury 47
+metal arm 72
+sluganoid arm 165
+golden form arm 184
+parasitic arm 227
+final form arm 248
+karmic seal 267
+base form arm 326
+rocky arm 330
+cursed assassin mark 348
+curse mark 353
+scarred tattoos 370
+dragon tattoo and bracelet 370
+dark matter markings 393
+blue heros mark and bandage 408
+none 411
+bandage 412
+_________________________
+reapers blade 1
+time bending staff and blade 1
+spatiokinesis 1
+elemental power 1
+axe of darkness 1
+beasts roar 1
+spirit weapon 9
+dark chakra lightning 19
+legendary sword 34
+excalibur 52
+chakra lightning 57
+energy disk 61
+staff 85
+legendary kunai 90
+chakra energy ball 96
+black devil sword 98
+blue spirit sword 103
+rock 106
+ignition glove 116
+emperor sword 117
+galaxy sword 128
+elemental earth 151
+magical sceptre 151
+mist sword 153
+long blade katana 154
+elemental water 157
+soul reapers blade 177
+z sword 178
+demon katana 179
+strongest sword 181
+giant pipe 182
+spirit blade 182
+kunai 189
+dark blade 190
+volleyball 191
+scissor blade 199
+rubber gum 200
+dragon sword 231
+shadow katana 251
+elemental air 256
+elemental fire 271
+_________________________
+encrypted markings 1
+time earring 1
+battered scarf 1
+black piercing 1
+tyrants mask 1
+warriors scars 1
+face skull 42
+ghoul mask 52
+power level reader 65
+criminal tattoos 77
+curse mark 80
+malice mark 98
+hero disease mask 113
+quirk scar 115
+fusion earrings 116
+bloody face and shuriken earring 150
+karmic seal 150
+bandaged face 180
+ninja mask 180
+cross 181
+cigarette and lighter earring 183
+demon mark 189
+pirate earrings and toothpick 195
+bandaid and cross earring 200
+cyclops eye 202
+cursed assassin mark 204
+banished scar 223
+artists seal 234
+sunglasses 236
+face stitch and cigar 245
+piercings 248
+ace tattoos 252
+stitches 253
+eye scar 256
+none 275
+_________________________
+voyagers jacket 1
+bikers sleeveless jacket 1
+space suit 1
+meteorologists attire 1
+tyrants hoodie 1
+shirtless beast 1
+one punch hoodie 27
+rogue shinobi 32
+prince tank top 38
+z jersey 45
+beast chakra sleeveless hoodie 48
+bulls jersey 50
+dawn jersey 53
+fusion tank top 53
+laws sleeveless hoodie 57
+shinobi hoodie 62
+inferno jacket 69
+pink sleeveless hoodie 73
+banana hawaiian and drill necklace 79
+green and black hawaiian 80
+laws hoodie 82
+rogue shinobi shirt 91
+air tribe hoodie 96
+egyptian jacket and puzzle 98
+freedom jacket 100
+reaper tank top 100
+slime shirt 104
+ghoul shirt 105
+water tribe hoodie 108
+demon yellow hawaiian 117
+demon yellow shirt 119
+earth tribe hoodie 131
+ramen shirt 135
+fire tribe hoodie 135
+fire fighter hoodie 138
+ua hoodie 138
+captain jacket 142
+black shirt and red tie 150
+cowboy jacket 151
+short sleeve hoodie and flute 168
+sol hoodie and chain 170
+hunter shirt and chain 186
+nine tails shirt 189
+pain tank top 194
+crow jersey 202
+flower hawaiian and x scar 202
+panda shirt 210
+origins shirt 211
+none 256
+_________________________
+voyagers hood 1
+fresh cut 1
+space helmet 1
+wet cut 1
+tyrants hood 1
+tiger ears 1
+demon hairstyle 2
+cloudy bucket hat 2
+spirit crown 14
+super blue hairstyle 21
+loop hairstyle 22
+delinquents hat 25
+pirate king bucket hat 33
+the pirate king cap 42
+super hairstyle 53
+brotherhood beanie 57
+teachers bucket hat 62
+antenna and assassin hairstyle 66
+ua beanie 67
+dimples beanie 78
+doctors hat 82
+titan cap 83
+none 87
+devils hairstyle 91
+halo 97
+icy hot hairstyle 99
+100 cap 106
+antenna and dark blue hairstyle 107
+one million bucket hat 109
+kings crown 112
+frosted tips hairstyle 114
+L cap 121
+spike hairstyle 122
+red hairstyle 122
+lion beanie 122
+light hairstyle 123
+freedom beanie 124
+man bun hairstyle 125
+light green hairstyle 128
+goggles 131
+buzz cut hairstyle 132
+frosted man bun hairstyle 133
+soccer cap 136
+mohawk 141
+crows cap 142
+long grey hairstyle 148
+origins beanie 150
+assassin hairstyle 151
+black hairstyle 152
+green hairstyle 152
+shield bucket hat 157
+grey hairstyle 159
+short mohawk hairstyle 163
+spiky red hairstyle 164
+soccer hairstyle 165
+_________________________
+death stare 1
+chronosync 1
+spectators eyes 1
+ying yang eyes 1
+malware eyes 1
+jungle eyes 1
+double copycat eyes 37
+infinite eyes 51
+chakra eyes 55
+dimension eyes 57
+celestial eyes 59
+elemental eyes 59
+universal eyes 76
+ghoul eyes 109
+sage eyes 114
+foresight eyes 117
+spider eyes 133
+blood crimson eyes 151
+vampire eyes 156
+demon eyes 162
+copycat eyes 172
+copy eyes 180
+lifespan eyes 189
+obedience eye 190
+soul eyes 205
+clover eyes 216
+sand eyes 218
+wrath eyes 220
+rainbow eyes 232
+perceptive eyes 247
+orange and blue eyes 249
+cursed assassin eyes 259
+god eyes 261
+red and yellow eyes 267
+black eyes 269
+cross eyes 284
+_________________________
+reapers curse 1
+save point 1
+spatial realm 1
+natures wrath 1
+hackers heavens 1
+dark forest 1
+city lights 88
+sluganoid planet 138
+cloudy sky 241
+roses 249
+beach 339
+purple thunder 361
+full moon 443
+volcano 458
+icy cave 458
+night sky 522
+dark sunset 545
+world on fire 576
+electric blue 576

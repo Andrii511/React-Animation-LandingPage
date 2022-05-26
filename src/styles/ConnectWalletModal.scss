@@ -1,0 +1,28 @@
+.ReactModal__Content {
+  font-family: "Squada One", sans-serif;
+  position: absolute;
+  background-color: black !important;
+  font-size: 24px;
+  top: 50% !important;
+  left: 50% !important;
+  right: auto !important;
+  bottom: auto !important;
+  transform: translate(-50%, -50%);
+  color: white;
+  border-radius: 15px !important;
+  text-align: center;
+  width: 860px !important;
+  @media (max-width: 768px) {
+    width: 350px !important;
+  }
+  p {
+    font-family: 'Manrope', sans-serif, monospace;
+  }
+}
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.ReactModal__Overlay {
+  background-color: rgba(40, 46, 43, 0.95) !important;
+}
